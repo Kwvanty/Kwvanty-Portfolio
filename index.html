@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b10">
+  <meta name="description" content="Kwvanty — Python developer building useful tools, creative software and independent projects.">
+  <title>Kwvanty — Python Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Kwvanty home"><span class="brand-mark">K</span><span>kwvanty<span class="brand-dot">.</span></span></a>
+    <nav class="nav" id="nav">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#stack" data-i18n="navStack">Stack</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="top-actions">
+      <button class="lang-switch" id="langSwitch" aria-label="Switch language">UA</button>
+      <a class="availability" href="#contact"><span class="status-dot"></span><span data-i18n="available">Open to opportunities</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="eyebrow">INDEPENDENT DEVELOPER · UKRAINE</span></div>
+        <h1><span data-i18n="heroLine1">Turning ideas</span><br><span data-i18n="heroLine2">into <em>working</em></span><br><span data-i18n="heroLine3">software.</span></h1>
+        <p class="hero-text" data-i18n="heroText">I'm Kwvanty — a Python developer focused on building desktop tools, game-related software and ambitious independent projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="explore">Explore projects</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about"><span data-i18n="moreAbout">More about me</span><span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta"><span class="meta-line"></span><span data-i18n="heroMeta">Curiosity first. Build, test, improve.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract neon developer graphic">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-card">
+          <div class="core-top"><span>KWV / 001</span><span class="core-live"><i></i> ONLINE</span></div>
+          <div class="core-symbol">&lt;<b>/</b>&gt;</div>
+          <div class="core-bottom"><span>PYTHON</span><span>CREATIVE ENGINEERING</span></div>
+        </div>
+        <div class="float-tag tag-python"><span class="tag-icon">Py</span> Python</div>
+        <div class="float-tag tag-build"><span class="tag-pulse"></span> BUILDING</div>
+        <div class="art-cross cross-one">+</div><div class="art-cross cross-two">+</div>
+        <div class="art-caption">FIG. 01 <span>IDEAS IN MOTION</span></div>
+      </div>
+      <div class="hero-index"><span>01</span><span class="index-rule"></span><span>04</span></div>
+    </section>
+
+    <section class="section-wrap about section-block" id="about">
+      <div class="section-heading"><span class="section-kicker">01 / <span data-i18n="aboutKicker">THE DEVELOPER</span></span><span class="section-side" data-i18n="aboutSide">A little context</span></div>
+      <div class="about-grid">
+        <h2 data-i18n="aboutTitle">Curious by nature.<br><span>Developer by choice.</span></h2>
+        <div class="about-copy"><p data-i18n="aboutText">I enjoy taking an idea from a rough sketch to a real, usable product. I work mainly with Python and explore interfaces, automation, game tooling and graphics.</p><p class="muted" data-i18n="aboutText2">This portfolio is a living overview of what I'm learning and building — with room for the next experiment.</p><div class="signature">— Kwvanty <span>✳</span></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap projects section-block" id="projects">
+      <div class="section-heading"><span class="section-kicker">02 / <span data-i18n="projectsKicker">SELECTED WORK</span></span><span class="section-side" data-i18n="projectsSide">Experiments & products</span></div>
+      <div class="projects-title"><h2 data-i18n="projectsTitle">Things I'm <span>building.</span></h2><p data-i18n="projectsIntro">A selection of independent projects, each built to explore an idea and make it real.</p></div>
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-visual mace-visual"><div class="visual-grid"></div><div class="window-mock"><div class="mock-bar"><i></i><i></i><i></i><span>MACE LAUNCHER</span></div><div class="mock-content"><div class="mock-logo">M<span>.</span></div><div class="mock-lines"><b></b><i></i><i></i></div><div class="mock-button"></div></div></div><span class="visual-number">01</span></div>
+          <div class="project-info"><div class="project-type" data-i18n="maceType">DESKTOP APP · PYTHON</div><h3>Mace Launcher</h3><p data-i18n="maceDesc">A customizable Minecraft launcher focused on a flexible interface, useful tools and a connected player experience.</p><div class="tag-row"><span>Python</span><span>Pygame</span><span>Flask</span></div><div class="project-foot"><span data-i18n="inDevelopment">IN DEVELOPMENT</span><span class="project-arrow">↗</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual lumora-visual"><div class="lumora-orb orb-one"></div><div class="lumora-orb orb-two"></div><div class="lumora-label">LUMORA<br><b>ENGINE</b></div><div class="visual-number">02</div></div>
+          <div class="project-info"><div class="project-type" data-i18n="engineType">GRAPHICS · PYTHON</div><h3>LUMORA Engine</h3><p data-i18n="engineDesc">An experimental graphics engine project exploring rendering architecture, tools and visual effects.</p><div class="tag-row"><span>Python</span><span>OpenGL</span><span>PyOpenGL</span></div><div class="project-foot"><span data-i18n="inDevelopment">IN DEVELOPMENT</span><span class="project-arrow">↗</span></div></div>
+        </article>
+      </div>
+      <p class="project-note" data-i18n="projectNote">More projects will appear here as they become ready to share.</p>
+    </section>
+
+    <section class="section-wrap stack section-block" id="stack">
+      <div class="section-heading"><span class="section-kicker">03 / <span data-i18n="stackKicker">TOOLS & TECHNOLOGIES</span></span><span class="section-side" data-i18n="stackSide">Always learning</span></div>
+      <div class="stack-grid"><div><h2 data-i18n="stackTitle">My current <span>toolbox.</span></h2><p data-i18n="stackText">The technologies I use to prototype ideas, build interfaces and bring projects to life.</p></div><div class="skills"><div class="skill"><span class="skill-icon">Py</span><span>Python</span><small>01</small></div><div class="skill"><span class="skill-icon">Pg</span><span>Pygame</span><small>02</small></div><div class="skill"><span class="skill-icon">Fl</span><span>Flask</span><small>03</small></div><div class="skill"><span class="skill-icon">GL</span><span>OpenGL</span><small>04</small></div><div class="skill"><span class="skill-icon">GH</span><span>Git & GitHub</span><small>05</small></div><div class="skill"><span class="skill-icon">JS</span><span>HTML · CSS · JS</span><small>06</small></div></div></div>
+    </section>
+
+    <section class="contact section-wrap section-block" id="contact">
+      <div class="section-heading"><span class="section-kicker">04 / <span data-i18n="contactKicker">GET IN TOUCH</span></span><span class="section-side" data-i18n="contactSide">Let's connect</span></div>
+      <div class="contact-inner"><div><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="contactEyebrow">HAVE AN IDEA?</span></div><h2 data-i18n="contactTitle">Let's make<br><span>something useful.</span></h2><p data-i18n="contactText">Have a project, question or collaboration idea? Find me through the links below.</p></div><div class="contact-links"><a href="#" data-link="github"><span>GitHub</span><span>↗</span></a><a href="#" data-link="telegram"><span>Telegram</span><span>↗</span></a><a href="#" data-link="email"><span>Email</span><span>↗</span></a><small data-i18n="linksHint">Update these links in script.js with your real contacts.</small></div></div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">K</span><span>kwvanty<span class="brand-dot">.</span></span></a><span data-i18n="footerMade">Designed & built with curiosity.</span><span>© <span id="year"></span> KWVANTY</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
