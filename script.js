@@ -60,9 +60,9 @@ nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => n
   Example: github: "https://github.com/your-username"
 */
 const CONTACT_LINKS = {
-  github: "https://github.com/Kwvanty?tab=overview&from=2026-11-01&to=2026-11-06",
-  telegram: "@Kwvanty",
-  email: "Kwvantyromzes7@gmail.com"
+  github: "",
+  telegram: "",
+  email: ""
 };
 document.querySelectorAll("[data-link]").forEach(link => {
   const value = CONTACT_LINKS[link.dataset.link];
